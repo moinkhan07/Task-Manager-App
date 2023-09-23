@@ -1,0 +1,5 @@
+package com.taskmanager.Model;
+
+public class Task {
+
+}
