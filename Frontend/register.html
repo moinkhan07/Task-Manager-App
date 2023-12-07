@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Web Application - Register</title>
+    <link rel="stylesheet" href="./Style/register.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+<body id="register">
+    <div id="registerDiv">
+        <img onclick="goToHomePage()" src="./assets/logo.png" alt="logo">
+        <h2>Welcome To Task Manager</h2>
+        <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" /> 
+        <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" /> 
+        <input  name="userEmail" placeholder="Enter your email" type="email" id="email" />
+        <input  name="userPassword" placeholder="Enter your password" type="password" id="pass" />
+        <button onclick="register()">Register</button>
+        <hr />
+        <a href="./login.html">Already an user? click to login</a>
+    </div>
+</body>
+</html>
+<script src="./Script/register.js"></script>
